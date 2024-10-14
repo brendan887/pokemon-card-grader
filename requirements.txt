@@ -1,0 +1,5 @@
+requests
+ebaysdk
+watchdog
+torch
+torchvision
