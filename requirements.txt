@@ -3,3 +3,4 @@ ebaysdk
 watchdog
 torch
 torchvision
+python-dotenv
