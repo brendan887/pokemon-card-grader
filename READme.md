@@ -4,31 +4,46 @@
 
 Since we are scraping our own data, we can design our own dataset as a preprocessing step. This way, we ensure that the dataset is representative of cards that we are interested in and has a sufficient representation of cards with different features. These features include but are not limited to:
 
-- Card type (standard vs. trainer)
+- Card type (pokemon vs. trainer)
 - Art size (half art vs. full art)
 - Special variant (EX, GX, VMAX, etc.)
 
-We have decided to collect card images for **the top 10 most valuable cards for each set** as of 11/3/24, with a total of XX different cards. The complete card list can be found in `config.py`. This query provides a good distribution of cards as it automatically includes cards for each generation and the special variants for each of these generations.
+We have decided to scrape card images for **the top 10 most valuable cards for each set** as of 11/3/24 (with the exception of few cards that have completely different appearances), with a total of 978 different cards. The complete card list can be found in [here](https://docs.google.com/document/d/1S45M2bVT3rBX15cnimlXmRDwiepWfXl3hs9HDs8nDyU/edit?usp=sharing). Significant effort was required to generate this list, as well as to create a cleaned version available in `config.py`. This query provides a good distribution of cards as it automatically includes cards for each generation and the special variants for each of these generations.
 
-For each card, we have collected 2 images for each of the following classes, for a total of XX cards for each class:
+For each card, we have attempted to collect 2 images for each of the following classes, though not all grades were found for each card.
 
 - PSA 10
 - PSA 9
 - PSA 8
 - PSA 7
-- PSA 6 and below
 
-This ensures that the distribution of data between classes is even.
+This ensures that the distribution of data between classes is close to even.
 
-Additional distribution information:
+### Feature Distribution
 
-| Feature               | Count |
-| --------------------- | ----- |
-| Pokemon (non-Trainer) | X     |
-| Trainer               | X     |
-| Full Art              | X     |
-| Half Art              | X     |
-| Total                 | X     |
+| Feature        | Count |
+| -------------- | ----- |
+| Pokemon        | 789   |
+| Trainer        | 189   |
+| Full Art       | 187   |
+| Non-Full Art\* | 791   |
+| GX             | 72    |
+| EX\*\*         | 216   |
+| V              | 42    |
+| VMAX           | 45    |
+| Total          | 978   |
+
+\*Some cards can have art spanning the card, but are not offically "Full Art" cards
+\*\*There are multiple generations of different types of EX cards, so this number is higher
+
+### Class Distribution
+
+| Class  | Count |
+| ------ | ----- |
+| PSA 10 | X     |
+| PSA 9  | X     |
+| PSA 8  | X     |
+| PSA 7  | X     |
 
 As we are handling image data, each image has pixel values ranging from 0-255. Min-max normalization is used to scale values to 0-1.
 

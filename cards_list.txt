@@ -1,0 +1,978 @@
+﻿Charizard - 004/102
+Blastoise - 002/102
+Venusaur - 015/102
+Alakazam - 001/102
+Raichu - 014/102
+Mewtwo - 010/102
+Chansey - 003/102
+Zapdos - 016/102
+Nidoking - 011/102
+Gyarados - 006/102
+Dragonite - 04/62
+Gengar - 05/62
+Moltres - 12/62
+Articuno - 02/62
+Aerodactyl - 01/62
+Raichu - 14/62
+Ditto - 03/62
+Haunter - 06/62
+Hitmonlee - 07/62
+Kabutops - 09/62
+Snorlax - 11/64
+Jolteon - 04/64
+Flareon - 03/64
+Scyther - 10/64
+Pidgeot - 08/64
+Wigglytuff - 16/64
+Nidoqueen - 07/64
+Victreebel - 14/64
+Mr. Mime - 06/64
+Vileplume - 15/64
+Mew - 01/18
+Togepi - 04/18
+Slowking - 14/18
+Marill - 11/18
+Wartortle - 15/18
+Lapras - 12/18
+Vileplume - 17/18
+Jigglypuff - 08/18
+Ledyba - 07/18
+Ivysaur - 05/18
+Snorlax Lv X - 111/111
+Flying Pikachu - 113/111
+Luxray GL Lv X - 109/111
+Pikachu - 112/111
+Flygon Lv X - 105/111
+Infernape E4 Lv X - 108/111
+Surfing Pikachu - 114/111
+Alakazam E4 Lv X - 103/111
+Floatzel GL Lv X - 104/111
+Gallade E4 Lv X - 106/111
+Time Space Distortion - 124/123
+Lucario Lv X - 122/123
+Magmortar Lv X - 123/123
+Electivire Lv X - 121/123
+Pikachu - 94/123
+Alakazam - 2/123
+Typhlosion - 16/123
+Tyranitar - 17/123
+Garchomp - 9/123
+Raichu - 15/123
+Charizard - 103/100
+Charmander - 101/100
+Charmeleon - 102/100
+Raichu Lv X - 99/100
+Regigigas Lv X - 100/100
+Dusknoir Lv X - 96/100
+Drifloon (Shiny) - SH1
+Machamp Lv X - 98/100
+Duskull (Shiny) - SH2
+Gengar - 18/100
+Iris (101 Full Art) - 101/101
+Rare Candy (105 Secret Rare) - 105/101
+Palkia EX Team Plasma (100 Full Art) - 100/101
+Dialga EX Team Plasma (99 Full Art) - 99/101
+Dusknoir (104 Secret Rare) - 104/101
+Virizion (Secret) - 103/101
+Exeggcute (102 Secret Rare) - 102/101
+Genesect EX Team Plasma (97 Full Art) - 97/101
+Jirachi EX (98 Full Art) - 98/101
+Master Ball - 94/101
+Gyarados (H10) - H10/H32
+Umbreon (H30) - H30/H32
+Alakazam (H1) - H1/H32
+Ho-oh - 149/144
+Houndoom (H11) - H11/H32
+Celebi - 145/144
+Poliwrath (H24) - H24/H32
+Raikou (H26) - H26/H32
+Golem - 148/144
+Raichu (H25) - H25/H32
+Dark Charizard (4) - 04/82
+Dark Blastoise (3) - 03/82
+Dark Dragonite (5) - 05/82
+Dark Raichu - 83/82
+Dark Charizard (21) - 21/82
+Dark Gyarados (8) - 08/82
+Dark Machamp (10) - 10/82
+Dark Alakazam (1) - 01/82
+Dark Slowbro (12) - 12/82
+Dark Magneton (11) - 11/82
+Charizard - 003/110
+Dark Blastoise - 004/110
+Mewtwo - 29/110
+Pikachu - 86/110
+Charmander - 70/110
+Eevee - 74/110
+Snorlax - 064/110
+Gengar - 011/110
+Venusaur - 018/110
+Bulbasaur 068/110
+Charizard (6) - 006/165
+Charizard (39) - 039/165
+Blastoise (4) - 004/165
+Charizard (40) - 040/165
+Gengar (13) - 013/165
+Mewtwo (20) - 020/165
+Mew (19) - 019/165
+Dragonite (9) - 009/165
+Tyranitar (66) - 066/165
+Mew (55) - 055/165
+Charizard - 100/97
+Rayquaza ex - 97/97
+Dragonite ex - 90/97
+Latios ex - 94/97
+Latias ex - 93/97
+Charmander - 98/97
+Charmeleon - 99/97
+Ampharos ex - 89/97
+Kingdra ex - 92/97
+Golem ex - 91/97
+Suicune ex - 94/95
+Blaziken ex - 89/95
+Swampert ex - 95/95
+Entei ex - 91/95
+Absol - 96/95
+Sceptile ex - 93/95
+Jirachi - 97/95
+Team Aqua's Kyogre - 3/95
+Squirtle - 46/95
+Cradily ex - 90/95
+Regice Star - 90/92
+Regirock Star - 91/92
+Registeel Star - 92/92
+Mew ex - 88/92
+Mew - 10/92
+Flygon ex - 87/92
+Pikachu Delta Species - 93/92
+Banette ex - 85/92
+Gengar - 5/92
+Arcanine ex - 83/92
+Pikachu Star - 104/110
+Gyarados Star Delta Species - 102/110
+Mewtwo Star - 103/110
+Mew ex - 100/110
+Gyarados Delta Species - 8/110
+Rayquaza Delta Species - 16/110
+Rayquaza Delta Species - 26/110
+Mewtwo Delta Species - 24/110
+Mew - 111/110
+Pikachu Delta Species - 79/110
+Charizard - 3/132
+Gardevoir Lv X - 131/132
+Bulbasaur - 77/132
+Honchkrow Lv X - 132/132
+Lugia - 14/132
+Arcanine - 22/132
+Charmander - 82/132
+Mew - 15/132
+Blastoise - 2/132
+Gardevoir - 7/132
+Gengar Prime - 94/102
+Alph Lithograph - FOUR
+Darkrai & Cresselia Legend Top - 99/102
+Mew Prime - 97/102
+Darkrai & Cresselia Legend Bottom - 100/102
+Palkia & Dialga Legend Top - 101/102
+Palkia & Dialga Legend Bottom - 102/102
+Absol Prime - 91/102
+Psyduck - 74/102
+Dragonite - 18/102
+Ultra Ball - 122/116
+Garchomp (120 Secret Rare) - 120/116
+Garbodor (119 Secret Rare) - 119/116
+Latios EX (113 Full Art) - 113/116
+Empoleon (117 Secret Rare) - 117/116
+Professor Juniper (116 Full Art) - 117/116
+Deoxys EX Team Plasma (Full Art) - 111/116
+Latias EX (112 Full Art) - 112/116
+Ghetsis Team Plasma (Full Art) - 115/116
+Sigilyph - 118/116
+Jolteon Star - 101/108
+Vaporeon Star - 102/108
+Flareon Star - 100/108
+Charizard - 6/108
+Salamence ex - 96/108
+Absol ex - 92/108
+Metagross ex - 95/108
+Flygon ex - 94/108
+Skarmory ex - 98/108
+Pikachu - 57/108
+Moltres - 149/149
+Charizard G Lv X - 143/147
+Articuno - 148/149
+Milotic (Shiny) - SH7
+Zapdos - 150/149
+Charizard G - 20/147
+Rayquaza C Lv X - 146/147
+Rayquaza C - 8/147
+Garchomp C Lv X - 145/147
+Relicanth (Shiny) - SH8
+N (Supporter) (Full Art) - 101/101
+Meowth - 102/101
+Victini (Full Art) - 98/101
+Cobalion (Full Art) - 100/101
+Virizion (Full Art) - 97/101
+Terrakion (Full Art) - 99/101
+Eelektrik - 40/101
+Chandelure - 60/101
+Archeops - 67/101
+Tirtouga - 25/101
+Gardevoir - 109/108
+Darkrai EX (Full Art) - 107/108
+Groudon EX (Full Art) - 106/108
+Pokemon Catcher (Gold) - 111/108
+Entei EX (Full Art) - 103/108
+Kyogre EX (Full Art) - 104/108
+Raikou EX (Full Art) - 105/108
+Archeops - 110/108
+Umbreon - 61/108
+Tornadus EX (Full Art) - 108/108
+Blastoise EX (Full Art) - 142/146
+Venusaur EX (Full Art) - 141/146
+Yveltal EX (Full Art) - 144/146
+Xerneas EX (Full Art) - 146/146
+Skarmory EX (Full Art) - 145/146
+M Blastoise EX - 30/146
+Emolga EX (Full Art) - 143/146
+M Venusaur EX - 2/146
+Yveltal EX - 79/146
+Evosoda - 116/146
+Shining Gyarados - 65/64
+Shining Magikarp - 66/64
+Ho-oh - 7/64
+Houndoom - 8/64
+Entei - 6/64
+Suicune - 14/64
+Raikou - 13/64
+Celebi - 3/64
+Crobat - 4/64
+Ampharos - 1/64
+Glaceon Lv X - 98/100
+Leafeon Lv X - 99/100
+Garchomp Lv X - 97/100
+Porygon-Z Lv X - 100/100
+Glaceon - 5/100
+Umbreon - 32/100
+Mewtwo - 9/100
+Articuno - 1/100
+Eevee - 63/100
+Leafeon - 7/100
+Ponyta (Shiny) - SH11
+Shinx (Shiny) - SH12
+Gengar Lv X - 97/99
+Charizard - 1/99
+Bagon (Shiny) - SH10
+Gengar - 17/99
+Gengar - 16/99
+Arceus Lv X - 95/99
+Salamence Lv X - 98/99
+Arceus - AR4
+Raichu ex - 98/100
+Aerodactyl ex - 94/100
+Typhlosion ex - 99/100
+Gardevoir ex - 96/100
+Wailord ex - 100/100
+Espeon - 16/100
+Vaporeon - 25/100
+Kabutops ex - 97/100
+Aggron ex - 95/100
+Jolteon - 6/100
+Mewtwo ex - 101/109
+Gardevoir - 7/109
+Scyther ex - 102/109
+Lapras ex - 99/109
+Sneasel ex - 103/109
+Hitmonchan ex - 98/109
+Blaziken - 3/109
+Chansey ex - 96/109
+Electabuzz ex - 97/109
+Magmar ex - 100/109
+Rayquaza - 128/124
+Rayquaza EX (Full Art) - 123/124
+Ho-Oh EX (Full Art) - 119/124
+Mew EX (Full Art) - 120/124
+Serperior - 125/124
+Giratina EX (Full Art) - 124/124
+Krookodile - 127/124
+Reuniclus - 126/124
+Registeel EX (Full Art) - 122/124
+Mew EX - 46/124
+Charizard Delta Species - 4/100
+Alakazam Star - 99/100
+Celebi Star - 100/100
+Swampert ex - 98/100
+Jirachi ex - 94/100
+Blastoise Delta Species - 2/100
+Sceptile ex Delta Species - 96/100
+Groudon ex - 93/100
+Delcatty ex - 91/100
+Kyogre ex - 95/100
+Lugia - 9/111
+Typhlosion - 17/111
+Typhlosion - 18/111
+Feraligatr - 5/111
+Meganium - 11/111
+Pichu - 12/111
+Feraligatr - 4/111
+Meganium - 10/111
+Slowking - 14/111
+Steelix - 15/111
+Lugia - 149/147
+Nidoking - 150/147
+Umbreon - H29/H32
+Kingdra - 148/147
+Houndoom - H11/H32
+Tyranitar - H28/H32
+Arcanine - H2/H32
+Espeon - H9/H32
+Scizor - H21/H32
+Suicune - H25/H32
+Umbreon ex - 112/115
+Espeon ex - 102/115
+Celebi ex - 117/115
+Raikou Star - 114/115
+Suicune Star - 115/115
+Entei Star - 113/115
+Lugia ex - 105/115
+Tyranitar ex - 111/115
+Ho-Oh ex - 104/115
+Steelix ex - 109/115
+Raikou & Suicune Legend Top - 92/95
+Raikou & Suicune Legend Bottom - 93/95
+Suicune & Entei Legend Top - 94/95
+Entei & Raikou Legend Bottom - 91/95
+Entei & Raikou Legend Top - 90/95
+Suicune & Entei Legend Bottom - 95/95
+Tyranitar Prime - 88/95
+Alph Lithograph - TWO
+Kingdra Prime - 85/95
+Tyranitar - 26/95
+Pikachu - 115/114
+Zekrom (Full Art) - 114/114
+Reshiram (Full Art) - 113/114
+Zoroark - 71/114
+Sawsbuck - 14/114
+Darkness Energy (Basic) - 111/114
+Zekrom - 47/114
+Lillipup - 80/114
+Water Energy - 107/114
+Serperior - 5/114
+Lugia Legend Bottom - 114/123
+Lugia Legend Top - 113/123
+Gyarados (Red) - 123/123
+Ho-Oh Legend Top - 111/123
+Ho-Oh Legend Bottom - 112/123
+Alph Lithograph - ONE
+Pikachu - 78/123
+Pokegear 3.0 - 96/123
+Darkness Energy (Basic) - 121/123
+Psychic Energy - 119/123
+Umbreon Prime - 86/90
+Rayquaza & Deoxys Legend Bottom - 90/90
+Kyogre & Groudon Legend Bottom - 88/90
+Rayquaza & Deoxys Legend Top - 89/90
+Kyogre & Groudon Legend Top - 87/90
+Alph Lithograph - THREE
+Espeon Prime - 81/90
+Umbreon - 10/90
+Houndoom Prime - 82/90
+Raichu Prime - 83/90
+Rayquaza Star - 107/107
+Latias Star - 105/107
+Rayquaza ex - 102/107
+Rocket's Raikou ex - 108/107
+Salamence ex - 103/107
+Rayquaza - 22/107
+Gyarados - 8/107
+Deoxys ex (Defense Forme) - 99/107
+Sharpedo ex - 104/107
+Jirachi - 9/107
+Dialga Lv X - 105/106
+Palkia Lv X - 106/106
+Darkrai Lv X - 104/106
+Cresselia Lv X - 103/106
+Mudkip - 80/106
+Darkrai - 3/106
+Togekiss - 11/106
+Lapras - 21/106
+Unown G - 57/106
+Rare Candy - 102/106
+Giratina Lv X - 124/127
+Vulpix (Shiny) - SH6
+Lotad (Shiny) - SH4
+Swablu (Shiny) - SH5
+Shaymin Lv X (Land Forme) - 126/127
+Shaymin Lv X (Sky Forme) - 127/127
+Mareep - 82/127
+Drapion Lv X - 123/127
+Giratina - 10/127
+Dialga G Lv X - 122/127
+Tropical Beach - BW28
+Champions Festival - BW95
+Eevee - BW97
+Genesect - BW101
+Victory Cup - BW31
+Victini - 43/101
+Victory Cup - BW30
+Victory Cup - BW29
+Victory Cup - BW30
+Victory Cup - BW31
+Skyla (Full Art) - 149/149
+Bianca (Full Art) - 147/149
+Black Kyurem EX (Full Art) - 145/149
+White Kyurem EX (Full Art) - 146/149
+Golurk - 150/149
+Cheren (Full Art) - 148/149
+Terrakion - 151/149
+Landorus EX (Full Art) - 144/149
+Celebi EX (Full Art) - 141/149
+Altaria - 152/149
+Reshiram (Full Art Secret Rare) - 114/113
+Zekrom (Full Art Secret Rare) - 115/113
+Charizard - 19/113
+Pignite - 26/113
+Ninetales - 21/113
+Mewtwo - 53/113
+Charmander - 17/113
+Lugia EX Team Plasma - 102/113
+Emboar - 27/113
+Shuckle - 3/113
+Deoxys ex (Speed Forme) - 93/106
+Milotic ex - 96/106
+Regirock ex - 99/106
+Raichu ex - 97/106
+Blaziken - 1/106
+Dusclops ex - 94/106
+Regice ex - 98/106
+Altaria ex - 90/106
+Rayquaza - 9/106
+Kyogre - 6/106
+Mew Star Delta Species - 101/101
+Dragonite ex Delta Species - 91/101
+Rayquaza ex Delta Species - 97/101
+Salamence ex Delta Species - 98/101
+Tyranitar ex Delta Species - 99/101
+Latios ex Delta Species - 96/101
+Flygon ex Delta Species - 92/101
+Gardevoir ex Delta Species - 93/101
+Latias ex Delta Species - 95/101
+Snorlax Delta Species - 10/101
+Charizard - 136/135
+Blastoise - 137/135
+Lugia EX Team Plasma (Full Art) - 134/135
+Colress Team Plasma (Full Art) - 135/135
+Articuno EX Team Plasma (Full Art) - 132/135
+Random Receiver - 138/135
+Victini EX (Full Art) - 131/135
+Cobalion EX (Full Art) - 133/135
+Lugia EX Team Plasma - 108/135
+Dowsing Machine - 128/135
+Lugia (Shiny) - SL7
+Rayquaza (Shiny) - SL10
+Suicune (Shiny) - SL11
+Dialga (Shiny) - SL2
+Darkness Energy (Basic) - 94/95
+Groudon (Shiny) - SL4
+Deoxys (Shiny) - SL1
+Palkia (Shiny) - SL8
+Kyogre (Shiny) - SL6
+Ho-Oh (Shiny) - SL5
+Ninetales ex - 96/101
+Groudon ex - 93/101
+Kyogre ex - 94/101
+Metagross ex - 95/101
+Registeel ex - 99/101
+Regice ex - 97/101
+Regirock ex - 98/101
+Wigglytuff ex - 101/101
+Vileplume ex - 100/101
+Groudon - 102/101
+Charizard ex - 105/112
+Gengar ex - 108/112
+Articuno ex - 114/112
+Blastoise ex - 104/112
+Moltres ex - 115/112
+Venusaur ex - 112/112
+Gyarados ex - 109/112
+Squirtle - 83/112
+Snorlax - 15/112
+Zapdos ex - 116/112
+Charizard G Lv X - DP45
+Striking Back Mewtwo (JP 10th Movie Commemoration Set)
+Lucario Prerelease - 53/127
+Alto Mare's Latias (JP 10th Movie Commemoration Set)
+Tree of Beginning's Mew (JP 10th Movie Commemoration Set)
+Explosive Birth Lugia (JP 10th Movie Commemoration Set)
+Rayquaza C Lv X - DP47
+Toxicroak G - DP41
+Gabite Prerelease - 48/123
+Lucario Lv X - DP12
+Torchic Star - 108/109
+Rocket's Snorlax ex - 104/109
+Mudkip Star - 107/109
+Rocket's Entei ex - 97/109
+Treecko Star - 109/109
+Rocket's Mewtwo ex - 99/109
+Rocket's Moltres ex - 100/109
+Rocket's Articuno ex - 96/109
+Rocket's Suicune ex - 105/109
+Rocket's Scizor ex - 101/109
+Metagross Star - 113/113
+Groudon Star - 111/113
+Flareon ex - 108/113
+Dragonite Delta Species - 3/113
+Jolteon ex - 109/113
+Umbreon Delta Species - 17/113
+Flareon Delta Species - 5/113
+Jolteon Delta Species - 7/113
+Rayquaza Delta Species - 13/113
+Mewtwo Delta Species - 12/113
+Empoleon Lv X - 120/130
+Infernape Lv X - 121/130
+Torterra Lv X - 122/130
+Gengar - 27/130
+Bonsly - 71/130
+Munchlax - 33/130
+Snorlax - 37/130
+Infernape - 5/130
+Budew - 43/130
+Dialga - 1/130
+Poncho Pikachu - 231/XY-P
+Poncho Pikachu - 208/XY-P
+Champions Festival - XY27 (2014)
+Charizard XY Evolutions Prerelease - 11/108
+Gyarados Prerelease - XY60
+Champions Festival (2016) - XY176
+Poncho Pikachu - 203/XY-P
+Machamp Prerelease - 59/108
+Champions Festival (2015) - XY91
+Mega Tokyo's Pikachu - 98/XY-P
+Lucario EX (Full Art) - 107/111
+M Lucario EX (Secret) - 113/111
+Dragonite EX (Full Art) - 108/111
+Korrina (Full Art) - 111/111
+M Heracross EX (Secret) - 112/111
+M Lucario EX - 55/111
+Heracross EX (Full Art) - 105/111
+Fossil Researcher (Full Art) - 110/111
+Battle Reporter (Full Art) - 109/111
+Seismitoad EX (Full Art) - 106/111
+Team Aqua's Kyogre EX - 6/34
+Team Magma's Groudon EX - 15/34
+Team Magma's Mightyena - 19/34
+Team Magma's Aggron - 14/34
+Team Aqua's Sealeo - 4/34
+Team Aqua Grunt - 26/34
+Team Magma's Poochyena - 17/34
+Team Magma's Secret Base - 32/34
+Team Magma's Zangoose - 22/34
+Team Aqua's Grimer - 7/34
+M Rayquaza EX (Full Art) - 105/108
+Rayquaza EX (Full Art) - 104/108
+Winona (Full Art) - 108/108
+M Rayquaza EX - 61/108
+Energy Switch - 109/108
+M Latios EX (Full Art) - 102/108
+M Gallade EX (Full Art) - 100/108
+VS Seeker - 110/108
+Latios EX (Full Art) - 101/108
+M Rayquaza EX - 76/108
+M Rayquaza EX (Shiny Full Art) - 98/98
+Primal Groudon EX (Shiny Full Art) - 97/98
+Primal Kyogre EX (Shiny Full Art) - 96/98
+Lugia EX (Full Art) - 94/98
+M Tyranitar EX (Full Art) - 92/98
+Giratina EX (Full Art) - 93/98
+M Sceptile EX (Full Art) - 85/98
+Energy Retrieval - 99/98
+Gyarados - 21/98
+Tyranitar EX (Full Art) - 91/98
+Charizard - 004/102
+Blastoise - 002/102
+Alakazam - 001/102
+Venusaur - 015/102
+Raichu - 014/102
+Nidoking - 011/102
+Mewtwo - 010/102
+Zapdos - 016/102
+Gyarados - 006/102
+Clefairy - 005/102
+M Charizard EX - 12/83
+Charizard EX - 11/83
+Leafeon EX - 10/83
+Zapdos - 29/83
+Articuno - 25/83
+M Blastoise EX - 18/83
+Jolteon EX - 28/83
+M Venusaur EX - 2/83
+Gengar - 35/83
+Umbreon EX (Full Art) - 119/124
+Alakazam EX (Secret) - 125/124
+M Alakazam EX (Full Art) - 118/124
+Umbreon EX - 55/124
+Glaceon EX (Full Art) - 116/124
+M Altaria EX (Full Art) - 121/124
+Alakazam EX (Full Art) - 117/124
+Team Rocket's Handiwork (Full Art) - 124/124
+M Alakazam EX - 26/124
+Kingdra EX (Full Art) - 122/124
+Gardevoir EX (Secret) - 116/114
+M Gardevoir EX (Full Art) - 112/114
+Volcanion EX (Secret) - 115/114
+M Steelix EX (Full Art) - 109/114
+M Gardevoir EX - 79/114
+Gardevoir EX (Full Art) - 111/114
+Steelix EX (Full Art) - 108/114
+M Steelix EX - 68/114
+Pokemon Ranger (Full Art) - 113/114
+Umbreon GX (Secret) - 154/149
+Lillie (Full Art) - 147/149
+Ultra Ball (Secret) - 161/149
+Espeon GX (Secret) - 152/149
+Umbreon GX (Full Art) - 142/149
+Nest Ball (Secret) - 158/149
+Psychic Energy (Secret) - 162/149
+Switch (Secret) - 160/149
+Lapras GX (Secret) - 151/149
+Solgaleo GX (Secret) - 155/149
+Sylveon GX (Secret) - 158/145
+Alolan Ninetales GX (Secret) - 150/145
+Rare Candy (Secret) - 165/145
+Mallow (Full Art) - 145/145
+Grass Energy (Secret) - 167/145
+Sylveon GX (Full Art) - 140/145
+Double Colorless Energy (Secret) - 166/145
+Enhanced Hammer (Secret) - 162/145
+Field Blower (Secret) - 163/145
+Decidueye GX (Secret) - 146/145
+Charizard GX (Secret) - 150/147
+Acerola (Full Art) - 142/147
+Fairy Energy (Secret) - 169/147
+Darkness Energy (Secret) - 168/147
+Wicke (Full Art) - 147/147
+Escape Rope (Secret) - 163/147
+Gardevoir GX (Secret) - 159/147
+Darkrai GX (Secret) - 158/147
+Machamp GX (Secret) - 154/147
+Fire Energy (Secret) - 167/147
+Mewtwo GX (Secret Shining) - 78/73
+Mewtwo GX (Secret) - 76/73
+Shining Mew - 40/73
+Shining Rayquaza - 56/73
+Raichu GX (Secret) - 75/73
+Entei GX (Secret) - 74/73
+Shining Arceus - 57/73
+Zoroark GX (Secret) - 77/73
+Mewtwo GX (Full Art) - 72/73
+Shining Genesect - 9/73
+Lusamine (Full Art) - 110/111
+Gyarados GX (Secret) - 112/111
+Counter Catcher (Secret) - 120/111
+Water Energy (Secret) - 124/111
+Olivia (Full Art) - 111/111
+Gladion (Full Art) - 109/111
+Counter Energy (Secret) - 122/111
+Gyarados GX (Full Art) - 101/111
+Nihilego GX (Secret) - 114/111
+Silvally GX (Secret) - 119/111
+Lillie (Full Art) - 151/156
+Cynthia (Full Art) - 148/156
+Lusamine (Full Art) - 153/156
+Leafeon GX (Secret Rare) - 157/156
+Mars (Full Art) - 154/156
+Lana (Full Art) - 150/156
+Gardenia (Full Art) - 149/156
+Solgaleo GX (Secret Rare) - 173/156
+Glaceon GX (Secret Rare) - 159/156
+Crushing Hammer (Secret Rare) - 166/156
+Pikachu (Polish) - PW 8
+Pikachu (English) - PW 1
+Pikachu (Japanese) - PW 5
+______'s Pikachu - 24
+Pikachu (Spanish) - PW 4
+Pikachu (French) - PW 7
+Pikachu (Snap) - 4
+Pikachu (Jungle) - 60
+Pikachu (Italian) - PW 2
+Pikachu (German) - PW 6
+Lucario GX (Secret) - 135/131
+Greninja GX (Secret) - 133/131
+Energy Recycler (Secret) - 143/131
+Diantha (Full Art) - 130/131
+Dialga GX (Secret) - 138/131
+Ultra Necrozma GX (Secret) - 140/131
+Xerneas GX (Secret) - 139/131
+Palkia GX (Secret) - 132/131
+Greninja GX (Full Art) - 120/131
+Yveltal GX (Secret) - 137/131
+Lisia (Full Art) - 164/168
+Rayquaza GX (Secret) - 177/168
+TV Reporter (Full Art) - 167/168
+Underground Expedition (Full Art) - 168/168
+Rainbow Energy (Secret) - 183/168
+Tate & Liza (Full Art) - 166/168
+Scizor GX (Secret) - 175/168
+Blaziken GX (Secret) - 170/168
+Articuno GX (Secret) - 171/168
+Rayquaza GX (Full Art) - 160/168
+Ultra Necrozma GX (Secret) - 78/70
+Zinnia (Full Art) - 70/70
+Salamence GX (Secret) - 73/70
+Reshiram GX (Secret) - 71/70
+White Kyurem GX (Secret) - 74/70
+Blaine's Last Stand (Full Art) - 69/70
+Dragonite GX (Full Art) - 67/70
+Altaria GX (Secret) - 72/70
+Charizard - 3/70
+Switch Raft (Secret) - 77/70
+Lugia GX (Secret) - 227/214
+Mimikyu GX (Secret) - 226/214
+Suicune GX (Secret) - 220/214
+Whitney (Full Art) - 214/214
+Professor Elm's Lecture (Full Art) - 213/214
+Mina (Full Art) - 211/214
+Tyranitar GX (Secret) - 223/214
+Lugia GX (Full Art) - 207/214
+Alolan Ninetales GX (Secret) - 225/214
+Kahili (Full Art) - 210/214
+Latias & Latios GX (Alternate Full Art) - 170/181
+Gengar & Mimikyu GX (Alternate Full Art) - 165/181
+Magikarp & Wailord GX (Alternate Full Art) - 161/181
+Gengar & Mimikyu GX (Secret) - 186/181
+Erika's Hospitality (Full Art) - 174/181
+Eevee & Snorlax GX (Secret) - 191/181
+Sabrina's Suggestion (Full Art) - 181/181
+Pikachu & Zekrom GX (Secret) - 184/181
+Latias & Latios GX (Secret) - 190/181
+Gengar & Mimikyu GX (Full Art) - 164/181
+Gardevoir & Sylveon GX (Alternate Full Art) - 205/214
+Reshiram & Charizard GX (Secret) - 217/214
+Greninja & Zoroark GX (Alternate Full Art) - 201/214
+Blastoise GX (Secret) - 218/214
+Green's Exploration (Full Art) - 209/214
+Marshadow & Machamp GX (Full Art) - 199/214
+Red's Challenge (Full Art) - 213/214
+Gardevoir & Sylveon GX (Secret) - 225/214
+Pokegear 3.0 (Secret) - 233/214
+Muk & Alolan Muk GX (Full Art) - 197/214
+Rosa (Full Art) - 236/236
+Arceus & Dialga & Palkia GX (Alternate Full Art) - 221/236
+Cynthia & Caitlin (Full Art) - 228/236
+Blastoise & Piplup GX (Alternate Full Art) - 215/236
+Solgaleo & Lunala GX (Full Art) - 216/236
+Lillie's Full Force (Full Art) - 230/236
+Red & Blue (Full Art) - 234/236
+Reshiram & Zekrom GX (Full Art) - 222/236
+Mega Lopunny & Jigglypuff GX (Alternate Full Art) - 226/236
+Charizard & Braixen GX (Secret) - 251/236
+Snorlax VMAX (Secret) - 206/202
+Marnie (Full Art) - 200/202
+Snorlax VMAX - 142/202
+Marnie (Secret) - 208/202
+Lapras VMAX (Secret) - 203/202
+Zacian V (Secret) - 211/202
+Quick Ball (Secret) - 216/202
+Zamazenta V (Secret) - 212/202
+Snorlax V (Full Art) - 197/202
+Morpeko VMAX (Secret) - 204/202
+Boss's Orders (Full Art) - 189/192
+Boss's Orders (Secret) - 200/192
+Sonia (Full Art) - 192/192
+Ninetales V (Full Art) - 177/192
+Cinderace VMAX (Secret) - 194/192
+Dragapult VMAX (Secret) - 197/192
+Sonia (Secret) - 203/192
+Rillaboom VMAX (Secret) - 193/192
+Inteleon VMAX (Secret) - 195/192
+Toxtricity VMAX (Secret) - 196/192
+Charizard VMAX - 020/189
+Eternatus VMAX (Secret) - 192/189
+Butterfree VMAX (Secret) - 190/189
+Scizor VMAX (Secret) - 193/189
+Salamence VMAX (Secret) - 194/189
+Centiskorch VMAX (Secret) - 191/189
+Rillaboom (Secret) - 197/189
+Eternatus VMAX - 117/189
+Charizard V - 019/189
+Pokemon Breeder's Nurturing (Secret) - 195/189
+Pikachu VMAX (Secret) - 188/185
+Pokemon Center Lady (Full Art) - 185/185
+Pikachu V (Full Art) - 170/185
+Togekiss VMAX (Secret) - 191/185
+Galarian Darmanitan VMAX (Secret) - 187/185
+Aegislash VMAX (Secret) - 190/185
+Coalossal VMAX (Secret) - 189/185
+Orbeetle VMAX (Secret) - 186/185
+Nessa (Full Art) - 183/185
+Bea (Full Art) - 180/185
+Tyranitar V (Alternate Full Art) - 155/163
+Rapid Strike Urshifu VMAX (Alternate Art Secret) - 170/163
+Single Strike Urshifu VMAX (Alternate Art Secret) - 168/163
+Empoleon V (Alternate Full Art) - 146/163
+Single Strike Urshifu V (Alternate Full Art) - 151/163
+Rapid Strike Urshifu V (Alternate Full Art) - 153/163
+Houndoom (Secret) - 179/163
+Phoebe (Full Art) - 161/163
+Corviknight VMAX (Secret) - 171/163
+Single Strike Urshifu VMAX (Secret) - 167/163
+Blaziken VMAX (Alternate Art Secret) - 201/198
+Galarian Moltres V (Alternate Full Art) - 177/198
+Shadow Rider Calyrex VMAX (Alternate Art Secret) - 205/198
+Snorlax (Secret) - 224/198
+Galarian Zapdos V (Alternate Full Art) - 174/198
+Ice Rider Calyrex VMAX (Alternate Art Secret) - 203/198
+Zeraora V (Alternate Full Art) - 166/198
+Galarian Articuno V (Alternate Full Art) - 170/198
+Galarian Rapidash V (Alternate Full Art) - 168/198
+Blaziken VMAX (Secret) - 200/198
+Umbreon VMAX (Alternate Art Secret) - 215/203
+Rayquaza VMAX (Alternate Art Secret) - 218/203
+Leafeon VMAX (Alternate Art Secret) - 205/203
+Glaceon VMAX (Alternate Art Secret) - 209/203
+Sylveon VMAX (Alternate Art Secret) - 212/203
+Umbreon V (Alternate Full Art) - 189/203
+Dragonite V (Alternate Full Art) - 192/203
+Rayquaza V (Alternate Full Art) - 194/203
+Espeon V (Alternate Full Art) - 180/203
+Sylveon V (Alternate Full Art) - 184/203
+Gengar VMAX (Alternate Art Secret) - 271/264
+Espeon VMAX (Alternate Art Secret) - 270/264
+Mew VMAX (Alternate Art Secret) - 269/264
+Mew VMAX (Secret) - 268/264
+Mew V (Alternate Full Art) - 251/264
+Celebi V (Alternate Full Art) - 245/264
+Inteleon VMAX (Alternate Art Secret) - 266/264
+Genesect V (Alternate Full Art) - 255/264
+Gengar VMAX - 157/264
+Greedent VMAX (Secret) - 272/264
+Charizard V (Alternate Full Art) - 154/172
+Charizard VSTAR (Secret) - 174/172
+Arceus V (Alternate Full Art) - 166/172
+Ultra Ball (Secret) - 186/172
+Charizard V (Full Art) - 153/172
+Lumineon V (Alternate Full Art) - 156/172
+Arceus VSTAR (Secret) (176) - 176/172
+Arceus VSTAR (Secret) (184) - 184/172
+Galarian Moltres V (Secret) - 183/172
+Honchkrow V (Alternate Full Art) - 162/172
+Machamp V (Alternate Full Art) - 172/189
+Origin Forme Palkia V (Alternate Full Art) - 167/189
+Origin Forme Dialga V (Alternate Full Art) - 177/189
+Beedrill V (Alternate Full Art) - 161/189
+Hisuian Sneasler V (Alternate Full Art) - 175/189
+Double Turbo Energy (Secret) - 216/189
+Irida (Full Art) - 186/189
+Origin Forme Dialga VSTAR (Secret) - 198/189
+Irida (Secret) - 204/189
+Origin Forme Palkia VSTAR (Secret) (192) - 192/189
+Giratina V (Alternate Full Art) - 186/196
+Aerodactyl V (Alternate Full Art) - 180/196
+Rotom V (Alternate Full Art) - 177/196
+Giratina VSTAR (Secret) (201) - 201/196
+Galarian Perrserker V (Alternate Full Art) - 184/196
+Aerodactyl VSTAR (Secret) - 199/196
+Giratina VSTAR (Secret) (212) - 212/196
+Hisuian Goodra VSTAR (Secret) - 202/196
+Kyurem VMAX (Secret) - 197/196
+Dark Patch (Secret) - 216/196
+Lugia V (Alternate Full Art) - 186/195
+Lugia VSTAR (Secret) (202) - 202/195
+Regidrago V (Alternate Full Art) - 184/195
+Unown V (Alternate Full Art) - 177/195
+Lugia VSTAR (Secret) (211) - 211/195
+Regidrago VSTAR (Secret) - 201/195
+Serena (Full Art) - 193/195
+Alolan Vulpix VSTAR (Secret) - 197/195
+Regieleki VMAX (Secret) - 198/195
+Lugia V (Full Art) - 185/195
+Elesa's Sparkle (Full Art) - 147/159
+Pikachu (Secret) - 160/159
+Charizard VSTAR - 019/159
+Friends in Sinnoh (Full Art) - 149/159
+Radiant Charizard - 020/159
+Friends in Hisui (Full Art) - 148/159
+Rayquaza VMAX (101) - 101/159
+Darkness Energy (Texture Full Art) - 158/159
+Professor's Research (Full Art) - 150/159
+Psychic Energy (Texture Full Art) - 156/159
+Paradise Resort - 045
+Pikachu with Grey Felt Hat - 085
+Snorlax Pokemon Center Exclusive - 051
+Squirtle Pokemon Center Exclusive - 007/165
+Charmander Pokemon Center Exclusive - 044
+Pikachu Pokemon Center Exclusive - 027
+Pawmot Prerelease - 006
+Quaquaval Prerelease - 005
+Drifblim - SVP135
+Crabominable - SVP134
+Gardevoir ex - 245/198
+Miriam - 251/198
+Ralts - 211/198
+Miraidon ex - 244/198
+Nest Ball - 255/198
+Drowzee - 210/198
+Kirlia - 212/198
+Rare Candy - 256/198
+Koraidon ex - 247/198
+Arven - 235/198
+Magikarp - 203/193
+Iono - 269/193
+Tyranitar - 222/193
+Raichu - 211/193
+Chi-Yu ex - 259/193
+Chien-Pao ex - 261/193
+Skeledirge ex - 258/193
+Iono - 254/193
+Tinkaton ex - 262/193
+Heracross - 194/193
+Charizard ex - 223/197
+Charizard ex - 228/197
+Pidgeot ex - 225/197
+Ninetales - 199/197
+Cleffa - 202/197
+Charizard ex - 215/197
+Pidgeot ex - 164/197
+Pidgey - 207/197
+Gloom - 198/197
+Pidgeot ex - 217/197
+Groudon - 199/182
+Roaring Moon ex - 251/182
+Altaria ex - 253/182
+Steelix - 208/182
+Iron Valiant ex - 249/182
+Iron Hands ex - 248/182
+Garchomp ex - 245/182
+Gholdengo ex - 252/182
+Professor Sada's Vitality - 256/182
+Parasol Lady - 255/182
+Raging Bolt ex - 208/162
+Walking Wake ex - 205/162
+Iron Crown ex - 206/162
+Gouging Fire ex - 204/162
+Morty's Conviction - 211/162
+Iron Leaves ex - 203/162
+Bianca's Devotion - 209/162
+Gastly - 177/162
+Prime Catcher - 157/162
+Iron Boulder ex - 207/162
+Greninja ex - 214/167
+Carmine - 217/167
+Perrin - 220/167
+Eevee - 188/167
+Bloodmoon Ursaluna ex - 216/167
+Kieran - 218/167
+Teal Mask Ogerpon ex - 211/167
+Lana's Aid - 219/167
+Buddy Buddy Poffin - 223/167
+Wellspring Mask Ogerpon ex - 213/167
+Terapagos ex - 170/142
+Squirtle - 148/142
+Bulbasaur - 143/142
+Hydrapple ex - 167/142
+Lacey - 172/142
+Dachsbun ex - 169/142
+Galvantula ex - 168/142
+Briar - 171/142
+Terapagos ex - 173/142
+Area Zero Underdepths - 174/142
