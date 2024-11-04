@@ -8,10 +8,11 @@ from typing import List, Set, Optional
 from multiprocessing import cpu_count
 from config import ROOT_IMAGE_DIRECTORY, EBAY_APP_ID, SEARCH_QUERIES, SERVER_URL
 from utils import write_metadata, send_directory_to_server
-from dotenv import load_dotenv
 
 # Global variables
 DEFAULT_THREAD_WORKERS: int = 5
+GRADES = ["psa 10", "psa 9", "psa 8", "psa 7"]
+IMG_PER_GRADE = 2
 
 
 def download_image(url: str, directory: str) -> None:

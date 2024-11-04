@@ -6,7 +6,7 @@ ROOT_IMAGE_DIRECTORY: str = "listing_images"
 SERVER_URL: str = "http://localhost:8000/notify"
 EBAY_APP_ID: str = os.getenv("EBAY_APP_ID")
 SEARCH_QUERIES: List[str] = [
-    "giratina v 186",
+    "umbreon vmax 215",
     # "giratina v 186 psa 10",
     # "giratina v 186 psa 9",
     # "giratina v 186 psa 8",
