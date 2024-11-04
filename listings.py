@@ -8,6 +8,7 @@ from typing import List, Set, Optional
 from multiprocessing import cpu_count
 from config import ROOT_IMAGE_DIRECTORY, EBAY_APP_ID, SEARCH_QUERIES, SERVER_URL
 from utils import write_metadata, send_directory_to_server
+from dotenv import load_dotenv
 
 # Global variables
 DEFAULT_THREAD_WORKERS: int = 5

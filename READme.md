@@ -8,7 +8,7 @@ Since we are scraping our own data, we can design our own dataset as a preproces
 - Art size (half art vs. full art)
 - Special variant (EX, GX, VMAX, etc.)
 
-We have decided to collect card images for **the top 10 most valuable cards for each set** as of 11/3/24, with a total of XX different cards. The card list can be found in `config.py`. This query provides a good distribution of cards as it automatically includes cards for each generation and the special variants for each of these generations.
+We have decided to collect card images for **the top 10 most valuable cards for each set** as of 11/3/24, with a total of XX different cards. The complete card list can be found in `config.py`. This query provides a good distribution of cards as it automatically includes cards for each generation and the special variants for each of these generations.
 
 For each card, we have collected 2 images for each of the following classes, for a total of XX cards for each class:
 
@@ -29,6 +29,8 @@ Additional distribution information:
 | Full Art              | X     |
 | Half Art              | X     |
 | Total                 | X     |
+
+As we are handling image data, each image has pixel values ranging from 0-255. Min-max normalization is used to scale values to 0-1.
 
 ## Milestone 1 - Abstract
 

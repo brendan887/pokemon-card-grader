@@ -1,12 +1,14 @@
 from flask import Flask, request, jsonify
 import hashlib
+import os
+from dotenv import load_dotenv
 
 app = Flask(__name__)
 
 
 # Set your verification token and endpoint URL
-VERIFICATION_TOKEN = "haksjdhahksdghsagdhasdjhasdhashm"
-ENDPOINT_URL = "https://shaoqian.sytes.net/ebay/webhook"
+VERIFICATION_TOKEN = os.getenv("VERIFICATION_TOKEN")
+ENDPOINT_URL = os.getenv("ENDPOINT_URL")
 
 
 @app.route("/ebay/webhook", methods=["GET"])
