@@ -4,7 +4,7 @@
 
 Since we are scraping our own data, we can design our own dataset as a preprocessing step. This way, we ensure that the dataset is representative of cards that we are interested in and has a sufficient representation of cards with different features. These features include but are not limited to:
 
-- Card type (pokemon vs. trainer)
+- Card type (Pokemon vs. trainer)
 - Art size (half art vs. full art)
 - Special variant (EX, GX, VMAX, etc.)
 
@@ -21,33 +21,37 @@ This ensures that the distribution of data between classes is close to even.
 
 ### Feature Distribution
 
-| Feature        | Count |
-| -------------- | ----- |
-| Pokemon        | 789   |
-| Trainer        | 189   |
-| Full Art       | 187   |
-| Non-Full Art\* | 791   |
-| GX             | 72    |
-| EX\*\*         | 216   |
-| V              | 42    |
-| VMAX           | 45    |
-| Total          | 978   |
+| Feature               | Count |
+| --------------------- | ----- |
+| Pokemon               | 789   |
+| Trainer               | 189   |
+| Full Art              | 187   |
+| Non-Full Art\*        | 791   |
+| GX                    | 72    |
+| EX\*\*                | 216   |
+| V                     | 42    |
+| VMAX                  | 45    |
+| Total Different Cards | 978   |
 
 \*Some cards can have art spanning the card, but are not offically "Full Art" cards
-\*\*There are multiple generations of different types of EX cards, so this number is higher
 
-### Class Distribution
+\*\*There are multiple generations of different types of EX cards, so this number is higher. It is difficult to check the exact distribution between these generations without manually verifying each card.
 
-| Class  | Count |
-| ------ | ----- |
-| PSA 10 | X     |
-| PSA 9  | X     |
-| PSA 8  | X     |
-| PSA 7  | X     |
+### Class Distribution (Collection in progress)
+
+| Class          | Count |
+| -------------- | ----- |
+| PSA 10         | 214   |
+| PSA 9          | 280   |
+| PSA 8          | 256   |
+| PSA 7          | 172   |
+| Total Examples | 992   |
+
+Due to API rate limits and time required to scrape all the image data, data is still being collected as of writing. We expect >8000 examples upon completion. Given the data collected so far, the distribution between classes is quite even.
 
 As we are handling image data, each image has pixel values ranging from 0-255. Min-max normalization is used to scale values to 0-1.
 
-Dataset can be found here: XX
+A portion of the dataset can be found [here](https://drive.google.com/drive/folders/1NuAWu848ER3avx0a-dhP88j1xvQZjNTi?usp=sharing). This does not include the entire dataset given its size.
 
 ## Milestone 1 - Abstract
 

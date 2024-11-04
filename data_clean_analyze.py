@@ -3,7 +3,7 @@ import requests
 
 def get_pokemon_names():
     pokemon_names = []
-    url = 'https://pokeapi.co/api/v2/pokemon?limit=10000'  # High limit to get all Pokémon
+    url = 'https://pokeapi.co/api/v2/pokemon?limit=10000'
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
@@ -15,7 +15,7 @@ def get_pokemon_names():
 
 
 def standardize_card_name(line, pokemon_names):
-    original_line = line.strip()  # Keep the original line for category checks
+    original_line = line.strip()
     categories = {
         'trainer': False,
         'pokemon': False,
@@ -27,14 +27,11 @@ def standardize_card_name(line, pokemon_names):
         'vmax': False
     }
 
-    # Category Checks before any modifications
-    # Check for 'Full Art'
     if re.search(r'Full Art', original_line, re.IGNORECASE):
         categories['full_art'] = True
     else:
         categories['half_art'] = True
 
-    # Check for GX, EX, V, VMAX (case-insensitive)
     if re.search(r'\bGX\b', original_line, re.IGNORECASE):
         categories['gx'] = True
     if re.search(r'\bEX\b', original_line, re.IGNORECASE):
@@ -44,7 +41,6 @@ def standardize_card_name(line, pokemon_names):
     if re.search(r'\bVMAX\b', original_line, re.IGNORECASE):
         categories['vmax'] = True
 
-    # Check if the card name contains a Pokémon name
     card_name = original_line.split('-')[0]  # Get the part before the dash
     card_name_tokens = re.findall(r'\b\w+\b', card_name.lower())
 
@@ -53,10 +49,8 @@ def standardize_card_name(line, pokemon_names):
     else:
         categories['trainer'] = True
 
-    # Rule 1: Remove content inside round brackets
     line = re.sub(r'\s*\(.*?\)\s*', ' ', line)
 
-    # Rule 2: Split line at dash into name and numbering parts
     if '-' in line:
         name_part, numbering_part = line.split('-', 1)
         name_part = name_part.strip()
@@ -65,19 +59,16 @@ def standardize_card_name(line, pokemon_names):
         name_part = line.strip()
         numbering_part = ''
 
-    # Rule 3: Rearrange uppercase tokens in name part
     tokens = name_part.split()
     uppercase_tokens = [token for token in tokens if token.isupper()]
     other_tokens = [token for token in tokens if not token.isupper()]
     rearranged_name = ' '.join(other_tokens + uppercase_tokens)
 
-    # Rule 5: Concatenate name and numbering parts
     if numbering_part:
         standardized_line = f"{rearranged_name} {numbering_part}"
     else:
         standardized_line = rearranged_name
 
-    # Rule 6: Convert to lowercase
     standardized_line = standardized_line.lower()
 
     return standardized_line, categories
@@ -99,7 +90,6 @@ def create_card_list(file_path, pokemon_names):
             standardized_line, categories = standardize_card_name(line, pokemon_names)
             card_list.append(standardized_line)
 
-            # Update counts
             for category in counts:
                 if categories[category]:
                     counts[category] += 1
@@ -117,11 +107,8 @@ def print_counts(counts):
     for category, count in counts.items():
         print(f"{category.capitalize()}: {count}")
 
-# Example usage:
-# Fetch Pokémon names once and use them throughout
 pokemon_names = get_pokemon_names()
 
-# Assuming your text file is named 'pokemon_cards.txt'
 card_list, counts = create_card_list('cards_list.txt', pokemon_names)
 print_list_as_code(card_list)
 print_counts(counts)

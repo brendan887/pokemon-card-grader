@@ -66,8 +66,7 @@ def process_listing(
     for url in picture_urls:
         download_image(url, directory)
 
-    # Since we're not using 'condition', you can remove or comment out 'condition' in metadata
-    write_metadata(directory, title, listing_id, len(picture_urls), price=price)
+    write_metadata(directory, title, listing_id, len(picture_urls), condition=condition, price=price)
 
     if do_send_directory_to_server:
         send_directory_to_server(directory, SERVER_URL)
