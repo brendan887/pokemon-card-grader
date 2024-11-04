@@ -47,7 +47,7 @@ This ensures that the distribution of data between classes is close to even.
 | PSA 7          | 172   |
 | Total Examples | 992   |
 
-Due to API rate limits and time required to scrape all the image data, data is still being collected as of writing. We expect >8000 examples upon completion. Given the data collected so far, the distribution between classes is quite even.
+Due to API rate limits and time required to scrape all the image data, data is still being collected as of writing. We expect >8000 examples upon completion. Given the data collected so far, the distribution between classes is quite even. Though unlikely, should the distribution be significantly skewed, we can only consider the minimum count across all classes to enforce an equal distribution.
 
 As we are handling image data, each image has pixel values ranging from 0-255. Min-max normalization is used to scale values to 0-1.
 
