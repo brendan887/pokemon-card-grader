@@ -36,7 +36,7 @@ The model accuracy indicates that it is only slightly better than random selecti
 - Some images include irrelevant information (i.e. background)
 - PSA label contains information of the card class, which should not be given to the model
 
-As the task at hand relies on analyzing the card itself in great detail, we need to be able to eliminate the above factors. A solution is a segmentation model to crop out cards from the image and identify and discard images with multiple cards/no cards.
+As the task at hand relies on analyzing the card itself in great detail, we need to be able to eliminate the above factors. A solution is a segmentation model to crop out and flatten cards from the image, and identify and discard images with multiple cards/no cards/no unobstructed cards.
 
 As for the model itself, more experimentation on architectures can be conducted, including training our own model from scratch.
 
