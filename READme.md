@@ -1,5 +1,45 @@
 # CSE 151A Group Project
 
+## Milestone 3 - Preprocessing
+
+Image processing, model training, and evaluation can be found in [model.ipynb](https://github.com/brendan887/pokemon-card-grader/blob/main/model.ipynb).
+
+In this milestone, we completed data scraping as proposed in MS2. As we're working with image data, it is necessary to standardize the image size.
+
+### Image Processing
+
+![Image Widths](readme_images/image_width.png)
+![Image Heights](readme_images/image_height.png)
+
+The most common dimensions are ~600x800 at a 0.75:1 aspect ratio. We decided to fit the images into size 384x512 which maintains this aspect ratio and improves efficiency of training. This was achieved by scaling all images to fit within the dimensions while preserving their original aspect ratios, and then filling the background with black.
+
+Some simple data augmentation was also applied to the images, including small shifts, rotations, and flips. This is beneficial for CV models to improve generalizability.
+
+![Data Augmentation Results](readme_images/post_data_aug.png)
+
+### Training and Validation
+
+ResNet50 was used for transfer learning.
+
+![Model Accuracy](readme_images/model_accuracy.png)
+![Model Loss](readme_images/model_loss.png)
+
+The best validation accuracy achieved was 0.3093 with a corresponding train accuracy of 0.3876.
+
+### Conclusion
+
+The model accuracy indicates that it is only slightly better than random selection (there are 4 classes; random would be ~0.25). However, rather than improving the classification model itself, we propose further processing the dataset. Given the task of classification into different grades, the only pertinent information in a given image is the card itself. Looking at the preview of the data augmentation, we can see some issues:
+
+- Some images have more than one card included
+- Cards can be highly skewed
+- Size of cards in images may vary
+- Some images include irrelevant information (i.e. background)
+- PSA label contains information of the card class, which should not be given to the model
+
+As the task at hand relies on analyzing the card itself in great detail, we need to be able to eliminate the above factors. A solution is a segmentation model to crop out cards from the image and identify and discard images with multiple cards/no cards.
+
+As for the model itself, more experimentation on architectures can be conducted, including training our own model from scratch.
+
 ## Milestone 2 - Data Exploration and Initial Processing
 
 Since we are scraping our own data, we can design our own dataset as a preprocessing step. This way, we ensure that the dataset is representative of cards that we are interested in and has a sufficient representation of cards with different features. These features include but are not limited to:
