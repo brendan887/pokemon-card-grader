@@ -1,3 +1,7 @@
 .env
 .DS_Store
 __pycache__
+listing_images
+best_model.keras
+psa_classification_model.keras
+.ipynb_checkpoints
