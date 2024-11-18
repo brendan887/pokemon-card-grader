@@ -26,6 +26,22 @@ ResNet50 was used for transfer learning.
 
 The best validation accuracy achieved was 0.3093 with a corresponding train accuracy of 0.3876.
 
+### Where does your model fit in the fitting graph? 
+
+Train Loss (blue line):
+
+- Consistently decreases over epochs, which means the model is learning on the training data.
+
+Validation Loss (orange line):
+
+- Decreases initially but starts to plateau and fluctuate, with a gap forming between the training and validation loss.
+
+This pattern suggests that the model might be slightly overfitting. The model is performing well on the training data (low training loss) but struggles to generalize as indicated by the validation loss not decreasing at the same rate or fluctuating.
+
+### What are the next models you are thinking of and why?
+
+We can't fully conclude which model improvements need to made here. However we can start to think about using pre-existing image models using transfer learning with ResNet or train a custom UNet from scratch. We can also include L1/L2 regularization to address overfitting, this could help our model generalize better. 
+
 ### Conclusion
 
 The model accuracy indicates that it is only slightly better than random selection (there are 4 classes; random would be ~0.25). However, rather than improving the classification model itself, we propose further processing the dataset. Given the task of classification into different grades, the only pertinent information in a given image is the card itself. Looking at the preview of the data augmentation, we can see some issues:
