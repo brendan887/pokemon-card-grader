@@ -62,6 +62,15 @@ Data Augmentation: Use data augmentation to artificially increase dataset size a
 Instead of training from scratch, leverage pre-trained models like ResNet50, MobileNet, or VGG16, which are already trained on large datasets. Fine-tune these models on your dataset. We explored this option in the last milestone but we can try another one of the many pre-trained models.
 
 
+### Predictions of Correct and FP and FN
+
+More details on this can be found at the end of the notebook in [model2.ipynb](https://github.com/brendan887/pokemon-card-grader/blob/main/model2.ipynb). Here we calculate the predictions and build a confusion matrix. We also visualize some of the FP/FN, as well as correct predictions. 
+
+### Conclusion 
+
+
+
+
 
 
 
