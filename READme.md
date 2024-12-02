@@ -52,28 +52,21 @@ The validation loss remains relatively flat and doesn't show significant improve
 - Insufficient Training Data: The dataset might be too small for the model to learn effectively. Although I don't think this is the case as we have a sufficent amount of data images.
 
 ### Suggestions for Improvement
-Here are several ways to address these issues and improve the model:
+It is evident that our model is insufficient to make accurate predictions on our data. Given our observations, here are some possible directions that we hope to investigate for our next milestone:
 
-1. Improve Data Quality
-Class Imbalance: Check if certain PSA grades dominate the dataset. If so, apply techniques like oversampling, undersampling, or weighted loss functions to balance the data.
-Data Augmentation: Use data augmentation to artificially increase dataset size and variability (e.g., flipping, rotation, cropping)
-
-2. Use a Pre-trained Model (Transfer Learning)
-Instead of training from scratch, leverage pre-trained models like ResNet50, MobileNet, or VGG16, which are already trained on large datasets. Fine-tune these models on your dataset. We explored this option in the last milestone but we can try another one of the many pre-trained models.
-
+- Increased depth of model if continuing with CNN: the model cannot capture the required patterns in the data required to make accurate predictions, as discussed previously, though this is unlikely to achieve much better accuracy
+- Oversampling when training: the model can be trained with more than one instance for each card with different sets of augmentations (the current training methodology involves only one instance of each card with one set of augmentations)
+- Using a vision transformer model: according to our research, ViTs tend to work better with larger datasets, which may beneficial especially if we adopt an oversampling strategy (above) that significantly grows the dataset
+- Models with two input heads: the grading of a card relies on both the front and back of a card; our current implementation only takes the front as input. A model with two input heads can potentially be employed to take both the front and back images of an instance simultaneously to make a prediction. Similarly, a front and back image of a card instance can be concatenated and pass in as one input image. This would be a highly intensive and challenging iteration as it would require collection of corresponding back images for the cards in our dataset, and a model with two heads is a lot of additional complexity and may be unstable.
 
 ### Predictions of Correct and FP and FN
 
 More details on this can be found at the end of the notebook in [model2.ipynb](https://github.com/brendan887/pokemon-card-grader/blob/main/model2.ipynb). Here we calculate the predictions and build a confusion matrix. We also visualize some of the FP/FN, as well as correct predictions. 
 
 ### Conclusion 
+For this milestone, we attempted to create our own CNN model rather than transfer learning to control the complexity of the model. This has also allowed us to address batch size issues with ResNet50 that led to epochs with 0 accuracy during training last milestone - this has now been amended by using our own model.
 
-
-
-
-
-
-
+The direction we took with this model was to test our data-to-model complexity alignment. This is because our previous iteration used ResNet50 - a model that generally excels at classification - with transfer learning, which achieved a relatively low accuracy. As such, we attempted a shallower CNN to experiment if the large model was too complex to converge. Comparing results between both models, there is no marked difference. From this observation, we can likely conclude that a standard CNN will be ineffective regardless of model complexity/depth. In addition to the suggetions for improvement, additional models in the pipeline may be useful for improving results, such as an additional classification model that verifies if a card is evident in an image and roughly exceeds a certain image. 
 
 ## Milestone 3 - Preprocessing
 
