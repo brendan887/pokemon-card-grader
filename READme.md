@@ -1,5 +1,71 @@
 # CSE 151A Group Project
 
+## Milestone 4 - Model 2 and Evaluation
+
+Image processing, model training, and evaluation can be found in [model2.ipynb](https://github.com/brendan887/pokemon-card-grader/blob/main/model2.ipynb).
+
+We decided to try using a Convolutional Neural Network (CNN) model to see if we could see different results. This consisted of the same image processing of the first model, but used a different architecture to look at our data. Online research showed that Convolutional Neural Networks (CNN) are the most suitable choice for image-based tasks like ours. It's benefits include: feature extraction from images, parameter efficiency, etc.
+
+### Image Processing 
+
+![Image Widths](readme_images/image_width.png)
+![Image Heights](readme_images/image_height.png)
+
+This remains the same as it did for our first model.
+
+The most common dimensions are ~600x800 at a 0.75:1 aspect ratio. We decided to fit the images into size 384x512 which maintains this aspect ratio and improves efficiency of training. This was achieved by scaling all images to fit within the dimensions while preserving their original aspect ratios, and then filling the background with black.
+
+Some simple data augmentation was also applied to the images, including small shifts, rotations, and flips. This is beneficial for CV models to improve generalizability.
+
+### Training and Validation
+
+![Model Accuracy](readme_images/model_accuracy2.png)
+![Model Loss](readme_images/model_loss2.png)
+
+
+
+### Evaluation
+
+#### Training Accuracy:
+
+The training accuracy starts relatively low and slowly increases over the epochs, but the increase is very modest, with final accuracy just around 30%.
+This indicates that the model is learning but very slowly.
+
+#### Validation Accuracy:
+
+The validation accuracy fluctuates throughout the epochs without a clear upward trend.
+It also remains quite low, hovering around 28–30%.
+
+
+The low and fluctuating validation accuracy indicates that the model struggles to generalize to unseen data.
+
+### Training Loss:
+
+The training loss sharply decreases in the first epoch and then stabilizes, but remains relatively high.
+This shows that the model is learning but not optimally.
+
+### Validation Loss:
+
+The validation loss remains relatively flat and doesn't show significant improvement. It even seems to slightly diverge from the training loss in later epochs.
+
+- Underfitting: The model is not complex enough to capture the patterns in the data.
+- Insufficient Training Data: The dataset might be too small for the model to learn effectively. Although I don't think this is the case as we have a sufficent amount of data images.
+
+### Suggestions for Improvement
+Here are several ways to address these issues and improve the model:
+
+1. Improve Data Quality
+Class Imbalance: Check if certain PSA grades dominate the dataset. If so, apply techniques like oversampling, undersampling, or weighted loss functions to balance the data.
+Data Augmentation: Use data augmentation to artificially increase dataset size and variability (e.g., flipping, rotation, cropping)
+
+2. Use a Pre-trained Model (Transfer Learning)
+Instead of training from scratch, leverage pre-trained models like ResNet50, MobileNet, or VGG16, which are already trained on large datasets. Fine-tune these models on your dataset. We explored this option in the last milestone but we can try another one of the many pre-trained models.
+
+
+
+
+
+
 ## Milestone 3 - Preprocessing
 
 Image processing, model training, and evaluation can be found in [model.ipynb](https://github.com/brendan887/pokemon-card-grader/blob/main/model.ipynb).
