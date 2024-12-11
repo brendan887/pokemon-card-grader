@@ -40,6 +40,86 @@ Model 2: Convolutional Neural Network (CNN)
 ![Model 2](readme_images/CNN_flowchart.png)
 
 
+## Methods Section
+
+
+## Results Section
+
+
+## Discussion Section
+
+### Model 1: Resnet50 Transfer Learning: 
+
+ResNet50 is a deep convolutional neural network that has been pre-trained on ImageNet, a massive dataset containing millions of labeled images across thousands of categories. It is widely recognized for its ability to extract robust and diverse visual features.
+
+- **Depth of the Model:** ResNet50 has 50 layers, making it deep enough to learn intricate patterns in image data. This depth is especially useful for distinguishing subtle differences in image quality, such as detecting fine scratches, centering, and surface imperfections in Pokémon cards.
+
+Transfer learning allows the use of a pre-trained model like ResNet50 as a feature extractor. This is especially helpful for projects with smaller datasets, like this Pokémon card grading project.
+
+- The pre-trained ResNet50 model already learned generic features like edges, shapes, and textures from ImageNet. These features are applicable to Pokémon cards, as they also involve distinguishing visual details.
+
+The model accuracy indicates that it is only slightly better than random selection (there are 4 classes; random would be ~0.25). However, rather than improving the classification model itself, we put our effort towards further processing the dataset. Given the task of classification into different grades, the only pertinent information in a given image is the card itself. Looking at the preview of the data augmentation, we can see some issues:
+
+- Some images have more than one card included
+- Cards can be highly skewed
+- Size of cards in images may vary
+- Some images include irrelevant information (i.e. background)
+- PSA label contains information of the card class, which should not be given to the model
+
+As the task at hand relies on analyzing the card itself in great detail, we need to be able to eliminate the above factors. A solution we implemented is a segmentation model to crop out and flatten cards from the image, and identify and discard images with multiple cards/no cards/no unobstructed cards.
+
+### Model 2: Convolutional Neural Network (CNN)
+
+The CNN model was chosen as our second model for this project because of its ability to extract spatial features from image data. Convolutional layers allow the model to capture critical visual patterns such as edges, textures, and gradients that directly relate to Pokémon card grading criteria (e.g., centering, surface condition, corners, and edges). 
+
+The design of the CNN was intentionally kept lightweight with three convolutional layers, pooling layers, and dense layers. This simplicity was meant to:
+
+- Prevent overfitting, considering the relatively small dataset size.
+- Strike a balance between computational efficiency and feature extraction capacity.
+
+The input image size (384×512) was chosen to preserve enough detail for grading while remaining computationally feasible. A Flatten layer followed by a fully connected dense layer was used for classification into the four grading categories.
+
+However, the design process involved several iterations. Initial architectures were too shallow, resulting in underfitting, while deeper architectures led to overfitting due to limited data.
+
+The CNN model achieved modest training and validation accuracy, which revealed certain trends:
+
+**Believability of Results:** The model showed steady improvement in training accuracy over epochs, but validation accuracy plateaued early, suggesting limited generalization capacity. This aligns with expectations for a custom-built CNN applied to a domain-specific dataset.
+
+**Shortcomings in Accuracy:** While the CNN learned basic patterns, it struggled with fine-grained distinctions between similar grades (e.g., PSA 9 vs. PSA 10), likely due to insufficient high-quality training data for these subtle variations.
+
+The confusion matrix highlighted the model's strengths in distinguishing dissimilar grades but revealed a higher rate of false positives and false negatives for adjacent grades, reflecting inherent challenges in the grading task.
+
+### Improvements/Criticisms 
+
+- Larger dataset: following segmentation we had a total of ~2000 examples, more data would have been useful especially to train uninitialized models (i.e. not transfer learning with resent). Unfortunately the webscraping to gather data became more time consuming than me anticipated. 
+- More balanced dataset: there were approximately 550, 650, 500, 320 examples for grades 10, 9, 8, 7 respectively, and we used random sampling + data augmentation, but simply having more balanced data would be good. Class imbalance might be because there are more people listing PSA 10 and 9 compared to lower grades. 
+- higher resolution images: get more information of minute details that determine grade. This might mean having physical cards in our presence in order to take high quality pictures. 
+- More consistent segmentation: segmented dataset much better isolates the cards but some examples are not perfect
+-  Use front and back of card as one example: grade is determined by both front and back. Most online listings include an image of the back but we didn't factor this in.
+- Architecture Limitations: While lightweight, the model lacked the depth and complexity to fully capture subtle visual cues, such as minuscule scratches or centering deviations. The use of a Flatten layer contributed to a high number of parameters in the dense layers, making the model prone to overfitting despite its overall simplicity.
+- Overfitting Risks: The training curves revealed a narrowing gap between training and validation accuracy, but overfitting remained a concern, especially when the model was exposed to limited data.
+
+
+
+
+
+
+
+
+
+## Conclusion 
+
+The process of data collection for this project was one of the most challenging aspects. Pokémon card grading is a highly niche domain, and publicly available datasets simply do not exist. To build our dataset, we relied heavily on web scraping platforms like eBay to gather images of cards with corresponding grades. While this approach allowed us to create a dataset from scratch, it introduced several limitations. Many images scraped were of inconsistent quality, varied lighting conditions, and different angles, which may have negatively impacted the model's ability to learn grading-specific features. Additionally, data imbalance—where certain grades like PSA 10 were more common than others—likely skewed the model's predictions, as it struggled to generalize across all grades.
+
+With more time and resources, a more rigorous approach to data collection could have significantly improved the results. For instance, partnering with collectors or grading companies to access high-quality, standardized images with verified grades would have provided a more robust foundation for training. Furthermore, supplementing the dataset with artificial data augmentation, such as cropping, rotation, and color adjustments, could have enhanced the model's ability to handle real-world variability. These improvements would likely result in higher accuracy and greater confidence in predictions, particularly for edge cases where the model struggled to differentiate between adjacent grades.
+
+Overall, this project was an exciting first step toward automating Pokémon card grading. While the results demonstrate the potential of machine learning in this domain, they also highlight the critical importance of high-quality data in driving model performance. Looking ahead, future efforts could focus on refining the dataset, exploring more advanced architectures like attention-based models, and expanding the scope to include other collectibles. By addressing these areas, we can push closer to a practical and scalable solution for collectors and enthusiasts alike.
+
+
+## Statement of Collaboration
+
+
+
 ## Milestone 4 - Model 2 and Evaluation
 
 Image processing, model training, and evaluation can be found in [model2.ipynb](https://github.com/brendan887/pokemon-card-grader/blob/main/model2.ipynb).
