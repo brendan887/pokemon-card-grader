@@ -173,7 +173,7 @@ _Figure 10: Accuracy for Model 4 of depth 10_
 - Initial dataset shows PSA labels, which gives more information to the model than it should have -> this can explain why there is not a marked increase in accuracy following segmenting and cropping out cards, in addition to less datapoints following segmentation
 - Model 3 could have been trained for longer; loss is still decreasing, maybe may increase validation accuracy (though not necessarily)
 
-### Model 1: Resnet50 Transfer Learning:
+### Model: Resnet50 Transfer Learning:
 
 ResNet50 is a deep convolutional neural network that has been pre-trained on ImageNet, a massive dataset containing millions of labeled images across thousands of categories. It is widely recognized for its ability to extract robust and diverse visual features, and is a good general classifier.
 
@@ -193,7 +193,7 @@ The model accuracy indicates that it is only slightly better than random selecti
 
 As the task at hand relies on analyzing the card itself in great detail, we need to be able to eliminate the above factors. A solution we implemented is a segmentation model to crop out and flatten cards from the image, and identify and discard images with multiple cards/no cards/no unobstructed cards.
 
-### Model 2: Convolutional Neural Network (CNN)
+### Model 2: Convolutional Neural Network (CNN) - Tensor Flow
 
 The CNN model was chosen as our second model for this project because of its ability to extract spatial features from image data. Convolutional layers allow the model to capture critical visual patterns such as edges, textures, and gradients that directly relate to Pokémon card grading criteria (e.g., centering, surface condition, corners, and edges).
 
@@ -233,6 +233,14 @@ With more time and resources, a more rigorous approach to data collection could 
 Overall, this project was an exciting first step toward automating Pokémon card grading. While the results demonstrate the potential of machine learning in this domain, they also highlight the critical importance of high-quality data in driving model performance. Looking ahead, future efforts could focus on refining the dataset, exploring more advanced architectures like attention-based models, and expanding the scope to include other collectibles. By addressing these areas, we can push closer to a practical and scalable solution for collectors and enthusiasts alike.
 
 ## Statement of Collaboration
+
+Jackson Loughney:
+- Gathered a list of the top 10 most valuable cards from each pokemon set and their index number 
+- Created our 2nd model, a CNN made with tensor flow 
+- Helped build fitting graphs for the various models
+- Wrote the introduction, discussion, and conclusion for the final report.
+
+
 
 ## Milestone 4 - Model 2 and Evaluation
 
