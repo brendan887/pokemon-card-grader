@@ -167,11 +167,11 @@ _Figure 10: Accuracy for Model 4 of depth 10_
 
 ### Data Processing
 
-- We chose to use the list of 10 most valuable cards for each set as we believed that this would create a dataset representative of the different features of Pokemon cards that affect the appearance of the card, such as type and generation.
-- As seen in Figure 2, examples in initial dataset can be noisy, i.e. backgrounds and skewing of cards that are not relevant to the actual classification task
-- We segmented and flattened cards in order to isolate the cards from the background (reduce noise of dataset), while attempting to retain all of the card
-- Initial dataset shows PSA labels, which gives more information to the model than it should have -> this can explain why there is not a marked increase in accuracy following segmenting and cropping out cards, in addition to less datapoints following segmentation
-- Model 3 could have been trained for longer; loss is still decreasing, maybe may increase validation accuracy (though not necessarily)
+We chose to use the list of 10 most valuable cards for each set as we believed that this would create a dataset representative of the different features of Pokemon cards that affect the appearance of the card, such as type and generation.
+
+As seen in Figure 2, the examples in initial dataset can be noisy, i.e. backgrounds and skewing of cards that are not relevant to the actual classification task. This motivated the cropping of cards in order to isolate the cards from the background, reducing noise in the dataset while attempting to retain all of the card to prevent loss of information about the card.
+
+It is also important to note that the initial dataset shows PSA labels, which provided Models 1 and 2 with more information that they should have access to. This can explain why there is not a marked increase in accuracy following segmenting and cropping out cards, in addition to less examples following segmentation.
 
 ### Model: Resnet50 Transfer Learning:
 
@@ -235,12 +235,18 @@ Overall, this project was an exciting first step toward automating Pokémon card
 ## Statement of Collaboration
 
 Jackson Loughney:
-- Gathered a list of the top 10 most valuable cards from each pokemon set and their index number 
-- Created our 2nd model, a CNN made with tensor flow 
+
+- Gathered a list of the top 10 most valuable cards from each pokemon set and their index number
+- Created our 2nd model, a CNN made with tensor flow
 - Helped build fitting graphs for the various models
-- Wrote the introduction, discussion, and conclusion for the final report.
+- Wrote the introduction, discussion, and conclusion for the final report
 
+Brendan Mah:
 
+- Scraped card data
+- Implmented initial data processing and additional processing involvinv segmentation and cropping
+- Trained Models 1, 3, 4
+- Wrote methodology and results of final report
 
 ## Milestone 4 - Model 2 and Evaluation
 
