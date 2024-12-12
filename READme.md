@@ -14,23 +14,7 @@ Beyond the immediate application, this project highlights the broader potential 
 
 The broader implications of this work extend beyond collectibles. By leveraging computer vision and machine learning to assess physical objects, industries such as quality control, art appraisal, and antiques authentication could also benefit. For example, automating the evaluation of physical goods could lead to faster, more accurate, and scalable assessments in fields where manual inspection has long been the standard.
 
-## Figures
-
-### Image Processing
-
-Some simple data augmentation was also applied to the images, including small shifts, rotations, and flips. This is beneficial for CV models to improve generalizability.
-
-### Model Flowcharts
-
-Model 1: Resnet 50 Transfer Learning
-
-![Model 1](readme_images/resnet50_flowchart.png)
-
-Model 2: Convolutional Neural Network (CNN)
-
-![Model 2](readme_images/CNN_flowchart.png)
-
-## Methods Section
+## Methodology
 
 ### Data Collection and Exploration
 
