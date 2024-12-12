@@ -193,7 +193,7 @@ The model accuracy indicates that it is only slightly better than random selecti
 
 As the task at hand relies on analyzing the card itself in great detail, we need to be able to eliminate the above factors. A solution we implemented is a segmentation model to crop out and flatten cards from the image, and identify and discard images with multiple cards/no cards/no unobstructed cards.
 
-### Model 2: Convolutional Neural Network (CNN) - Tensor Flow
+### Model: Custom Convolutional Neural Network (CNN)  
 
 The CNN model was chosen as our second model for this project because of its ability to extract spatial features from image data. Convolutional layers allow the model to capture critical visual patterns such as edges, textures, and gradients that directly relate to Pokémon card grading criteria (e.g., centering, surface condition, corners, and edges).
 
