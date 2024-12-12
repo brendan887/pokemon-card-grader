@@ -8,3 +8,4 @@ psa_classification_model.keras
 best_seg.pt
 get_images.py
 get_file_names.py
+myenv

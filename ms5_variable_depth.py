@@ -1,7 +1,7 @@
 import random
 import numpy as np
 import matplotlib
-matplotlib.use('Agg')  # Use a non-interactive backend so no plot window pops up
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from PIL import Image
 
@@ -13,7 +13,7 @@ from torchvision import datasets, transforms
 
 from sklearn.model_selection import StratifiedShuffleSplit
 
-# Set random seeds for reproducibility
+
 seed = 42
 random.seed(seed)
 np.random.seed(seed)
@@ -26,14 +26,11 @@ batch_size = 32
 num_epochs = 20
 learning_rate = 1e-3
 val_split = 0.1
-patience = 10  # patience for early stopping
+patience = 10 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Device: {device}")
 
-####################################
-# Load the dataset
-####################################
 dataset = datasets.ImageFolder(
     root=data_dir,
     transform=transforms.Compose([
@@ -41,13 +38,11 @@ dataset = datasets.ImageFolder(
     ])
 )
 
-# Extract labels to perform a stratified split
 targets = np.array([y for _, y in dataset.samples])
 
 sss = StratifiedShuffleSplit(n_splits=1, test_size=val_split, random_state=seed)
 train_idx, val_idx = next(sss.split(np.zeros(len(targets)), targets))
 
-# Create subsets
 train_subset = torch.utils.data.Subset(dataset, train_idx)
 val_subset = torch.utils.data.Subset(dataset, val_idx)
 
@@ -63,12 +58,10 @@ train_transforms = transforms.Compose([
     transforms.ToTensor()
 ])
 
-# Val transforms
 val_transforms = transforms.Compose([
     transforms.ToTensor()
 ])
 
-# Custom dataset wrapper to apply transforms
 class CustomDatasetWrapper(torch.utils.data.Dataset):
     def __init__(self, subset, transform=None):
         self.subset = subset
@@ -90,9 +83,6 @@ class CustomDatasetWrapper(torch.utils.data.Dataset):
 train_dataset = CustomDatasetWrapper(train_subset, transform=train_transforms)
 val_dataset = CustomDatasetWrapper(val_subset, transform=val_transforms)
 
-####################################
-# Handle class imbalance via oversampling
-####################################
 train_labels = [label for _, label in (train_dataset[i] for i in range(len(train_dataset)))]
 class_sample_counts = np.bincount(train_labels)
 print("Original training distribution:", class_sample_counts)
@@ -118,10 +108,6 @@ print("Validation distribution:", val_counts)
 print("Val class proportions:", val_counts / val_counts.sum())
 print(len(train_loader))
 print(len(val_loader))
-
-####################################
-# Define a BasicBlock and a ResNet-like model
-####################################
 
 class BasicBlock(nn.Module):
     expansion = 1
@@ -199,9 +185,6 @@ class ResNetCustom(nn.Module):
         return x
 
 def get_resnet(depth, num_classes=4):
-    # Given a desired depth, construct a ResNet with basic blocks.
-    # depth = 1 (conv1) + (2 * total_blocks) + 1 (fc)
-    # total_blocks = (depth - 2)/2
     total_blocks = (depth - 2) // 2
 
     # Distribute blocks evenly across 4 layers
@@ -213,9 +196,6 @@ def get_resnet(depth, num_classes=4):
     model = ResNetCustom(BasicBlock, layers, num_classes=num_classes)
     return model
 
-####################################
-# Training Function with Early Stopping and Logging
-####################################
 def train_model(depth, train_loader, val_loader, device, num_epochs=20, lr=1e-3, num_classes=4, patience=10):
     model = get_resnet(depth, num_classes=num_classes)
     model = model.to(device)
@@ -272,7 +252,6 @@ def train_model(depth, train_loader, val_loader, device, num_epochs=20, lr=1e-3,
         train_acc_history.append(epoch_train_acc)
         val_acc_history.append(epoch_val_acc)
 
-        # Update best accuracies
         improved = False
         if epoch_val_acc > best_val_acc:
             best_val_acc = epoch_val_acc
@@ -284,12 +263,10 @@ def train_model(depth, train_loader, val_loader, device, num_epochs=20, lr=1e-3,
         if epoch_train_acc > best_train_acc:
             best_train_acc = epoch_train_acc
 
-        # Check for early stopping
         if epochs_no_improve >= patience:
             print(f"Early stopping at epoch {epoch+1} for depth {depth}, no improvement for {patience} epochs.")
             break
 
-    # Plot train/val accuracy per epoch for this model
     plt.figure(figsize=(8,6))
     plt.plot(train_acc_history, label='Train Accuracy')
     plt.plot(val_acc_history, label='Val Accuracy')
@@ -303,9 +280,6 @@ def train_model(depth, train_loader, val_loader, device, num_epochs=20, lr=1e-3,
 
     return best_train_acc, best_val_acc
 
-####################################
-# Train models with depths 10, 20, 30, 40, 50
-####################################
 depths = [1, 2, 5, 10, 15, 20, 30]
 best_train_accuracies = []
 best_val_accuracies = []
@@ -319,7 +293,6 @@ for depth in depths:
     best_val_accuracies.append(best_val_acc)
     print(f"Depth={depth}: Best Train Acc={best_train_acc:.4f}, Best Val Acc={best_val_acc:.4f}")
 
-# Plot all best accuracies in one plot
 plt.figure(figsize=(8,6))
 plt.plot(depths, best_train_accuracies, marker='o', label='Best Train Accuracy')
 plt.plot(depths, best_val_accuracies, marker='s', label='Best Validation Accuracy')
@@ -328,5 +301,5 @@ plt.xlabel('Model Depth')
 plt.ylabel('Accuracy')
 plt.grid(True)
 plt.legend()
-plt.savefig("fitting_graph.png")  # Save the plot instead of showing
+plt.savefig("fitting_graph.png") 
 print("Plot saved as fitting_graph.png")
