@@ -73,6 +73,7 @@ Though we succeeded in gathering the images of Pokemon cards of different grades
 
 ![Image Widths](readme_images/image_width.png)
 ![Image Heights](readme_images/image_height.png)
+
 _Figure 1: Distribution of image dimensions in collected dataset_
 
 For typical computer vision classification models, the input image size must be constant across all examples. Following our analysis of image dimensions as shown in Figure 1, we found the most common dimensions of images in our dataset ~600x800 at a 0.75:1 aspect ratio. We decided to fit all images in our dataset into size 384x512 which maintains this aspect ratio, but reduces resolution slightly to improve efficiency of model training. This was achieved by scaling all images to fit within the dimensions while preserving their original aspect ratios, and then filling background with black if left. All 3 input channels (RGB) was used.
@@ -80,6 +81,7 @@ For typical computer vision classification models, the input image size must be 
 As we are working with image data, each image has pixel values ranging from 0-255. Min-max normalization is used to scale values to 0-1. To improve generalizability of models, we also introduced data augmentation strategies, including minute shifts, rotations, and flipping left-right and top-bottom of training images.
 
 ![Data Augmentation Results](readme_images/post_data_aug.png)
+
 _Figure 2: Visualization of initial dataset following processing and augmentations_
 
 PSA 10, 9, and 8 classes were downsampled to match the example count of PSA 7 such that training and validation sets were well distributed.
@@ -87,6 +89,7 @@ PSA 10, 9, and 8 classes were downsampled to match the example count of PSA 7 su
 ### Model 1: [Transfer Learning with ResNet50 on Initial Dataset](https://github.com/brendan887/pokemon-card-grader/blob/dcbc5826322a446d75970e0d47492690d8c5b451/model.ipynb)
 
 ![ResNet50](readme_images/resnet50_flowchart.png)
+
 _Figure 3: ResNet50 model architecture_
 
 Our first model involves transfer learning on ResNet50. ResNet50 is a model with 50 layers (each layer corresponding to a 'block' as shown in Figure 3). This was achieved by freezing all weights of the initialized ResNet50 model, and adding the following layers to the head of the model:
@@ -113,6 +116,7 @@ For MS5, in addition to the training new models, further data processing was app
 A portion of the processed dataset is shown in Figure 4.
 
 ![Segmented Cards](readme_images/segmented_cards.png)
+
 _Figure 4: Visualization of dataset following segmentation and cropping_
 
 This pipeline enabled us to identify and discard images containing more than 2 cards. The segmentation model is also not perfect and could not identify the card or create clean segmentation masks that approximate a quadrilateral with complete accuracy. Examples that could not be cropped and flattened successfully were also discarded.
@@ -143,22 +147,36 @@ To explore smaller models more extensively, CNNs of depths 1, 2, 5, 10, 15, 20, 
 
 ![Model 1 Accuracy](readme_images/model_accuracy.png)
 ![Model 1 Loss](readme_images/model_loss.png)
+
 _Figure 5: Accuracy and loss for Model 1 (ResNet50 on initial data)_
+
+Model 1 is able to converge on the train set as demonstrated by decreasing training loss. However, validation accuracy does not increase. A validation accuracy of 0.3093 is reached.
 
 ![Model 2 Accuracy](readme_images/model_accuracy2.png)
 ![Model 2 Loss](readme_images/model_loss2.png)
+
 _Figure 6: Accuracy and loss Model 2 (3-Layer CNN on initial data)_
 
+Model 2 does not demonstrate continuous decrease in train loss and train accuracy similarly does not improve much over epochs. Validation accuracy of ~0.297 is reached.
+
 ![Model 3 Acc+Loss](readme_images/ms5_resnet50.png)
+
 _Figure 7: Accuracy and loss for Model 3 (ResNet50 on segmented data)_
 
 ![Model 3 Confusion](readme_images/ms5_resnet50_confusion.png)
+
 _Figure 8: Confusion matrix for Model 3_
 
+Similar to Model 1, train loss decreases over epochs and validation accuracy does not steadily increase. A high validation accuray of ~0.3093 is reached.
+
 ![Model 4 Fitting](readme_images/fitting_graph.png)
+
 _Figure 9: Accuracy against model depth for Models 4 (on segmented data)_
 
+Train and validation accuracy against model depth appears to follow a decreasing trend, as shown in Figure 9. The highest validation accuracy of 0.325 is achieved at a model depth of 10. The train and validation accuracy against epochs for this model can be seen in Figure 10.
+
 ![Model 4 Depth 10](readme_images/accuracy_plot_depth_10.png)
+
 _Figure 10: Accuracy for Model 4 of depth 10_
 
 ## Discussion Section
@@ -169,6 +187,7 @@ _Figure 10: Accuracy for Model 4 of depth 10_
 - As seen in Figure 2, examples in initial dataset can be noisy, i.e. backgrounds and skewing of cards that are not relevant to the actual classification task
 - We segmented and flattened cards in order to isolate the cards from the background (reduce noise of dataset), while attempting to retain all of the card
 - Initial dataset shows PSA labels, which gives more information to the model than it should have -> this can explain why there is not a marked increase in accuracy following segmenting and cropping out cards, in addition to less datapoints following segmentation
+- Model 3 could have been trained for longer; loss is still decreasing, maybe may increase validation accuracy (though not necessarily)
 
 ### Model 1: Resnet50 Transfer Learning:
 
