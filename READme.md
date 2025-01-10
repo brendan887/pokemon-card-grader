@@ -1,6 +1,6 @@
-# CSE 151A - AI-Driven Grading: Automating Pokémon Card Valuation with Machine Learning
+# AI-Driven Grading: Automating Pokémon Card Valuation with Machine Learning
 
-## Milestone 5 - Final Submission
+## Milestone 5
 
 ## Introduction
 
@@ -231,19 +231,3 @@ The process of data collection for this project was one of the most challenging 
 With more time and resources, a more rigorous approach to data collection could have significantly improved the results. For instance, partnering with collectors or grading companies to access high-quality, standardized images with verified grades would have provided a more robust foundation for training. Furthermore, supplementing the dataset with artificial data augmentation, such as cropping, rotation, and color adjustments, could have enhanced the model's ability to handle real-world variability. These improvements would likely result in higher accuracy and greater confidence in predictions, particularly for edge cases where the model struggled to differentiate between adjacent grades.
 
 Overall, this project was an exciting first step toward automating Pokémon card grading. While the results demonstrate the potential of machine learning in this domain, they also highlight the critical importance of high-quality data in driving model performance. Looking ahead, future efforts could focus on refining the dataset, exploring more advanced architectures like attention-based models, and expanding the scope to include other collectibles. By addressing these areas, we can push closer to a practical and scalable solution for collectors and enthusiasts alike.
-
-## Statement of Collaboration
-
-Jackson Loughney:
-
-- Gathered a list of the top 10 most valuable cards from each pokemon set and their index number
-- Created our 2nd model, a CNN made with tensor flow
-- Helped build fitting graphs for the various models
-- Wrote the introduction, discussion, and conclusion for the final report
-
-Brendan Mah:
-
-- Scraped card data
-- Implmented initial data processing and additional processing involvinv segmentation and cropping
-- Trained Models 1, 3, 4
-- Wrote methodology and results of final report
